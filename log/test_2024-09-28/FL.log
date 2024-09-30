@@ -1,0 +1,2457 @@
+[INFO](2024/09/28/ 11:18:19 PM) 
+[WELCOME] 
+[INFO](2024/09/28/ 11:18:20 PM) [Round: 0000] ...successfully initialized model (# parameters: 1662752)!
+[INFO](2024/09/28/ 11:18:20 PM) [Round: 0000] ...sucessfully initialized dataset controller for [mnist]
+[INFO](2024/09/28/ 11:18:20 PM) [Round: 0000] ...successfully created all 20 clients!
+[INFO](2024/09/28/ 11:18:20 PM) [Round: 0000] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:18:28 PM) [Round: 0001] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:18:28 PM) [Round: 0001] [2, 4, 8, 9, 13, 17] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:18:28 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3085            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:28 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.2992            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:28 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3053            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:29 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3079            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:29 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3023            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:29 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.3084            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:29 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3014            
+	=> Test accuracy: 13.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:29 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.3085            
+	=> Test accuracy: 5.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:29 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3032            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:29 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3060            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:29 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3034            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:29 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3064            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:29 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.3060            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:29 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3037            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:30 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3083            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:30 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.3076            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:30 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3002            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:30 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.3074            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:30 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3013            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:30 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3117            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:30 PM) [Round: 0001] ...finished evaluation of [2, 4, 8, 9, 13, 17] selected clients!
+[INFO](2024/09/28/ 11:18:30 PM) [Round: 0001] Updating [2, 4, 8, 9, 13, 17] clients...!
+[INFO](2024/09/28/ 11:18:30 PM) [Round: 0001] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:18:30 PM) [Round: 0001] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:18:30 PM) [Round: 0001] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:18:31 PM) [Round: 0001] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.3054                
+	=> Accuracy: 9.79%                
+	=> Class Accuracy: ['0.00', '0.00', '0.02', '0.49', '0.00', '0.00', '0.42', '0.00', '0.00', '0.05']
+
+[INFO](2024/09/28/ 11:18:31 PM) [Round: 0001] Clients have uploaded their model 6 times！
+[INFO](2024/09/28/ 11:18:31 PM) [Round: 0001] Overall Accuracy is 0.09791666666666667!
+[INFO](2024/09/28/ 11:18:39 PM) [Round: 0002] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:18:39 PM) [Round: 0002] [3, 7, 8, 9, 14, 18] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:18:39 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3069            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:40 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.3046            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:40 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3064            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:40 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3084            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:40 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3039            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:40 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.3103            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:40 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3043            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:40 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.3038            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:40 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3095            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:40 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3018            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:40 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3049            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:40 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3090            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:41 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.3033            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:41 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3029            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:41 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3056            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:41 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.3019            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:41 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3056            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:41 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.3127            
+	=> Test accuracy: 5.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:41 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3013            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:41 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3045            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:41 PM) [Round: 0002] ...finished evaluation of [3, 7, 8, 9, 14, 18] selected clients!
+[INFO](2024/09/28/ 11:18:41 PM) [Round: 0002] Updating [3, 7, 8, 9, 14, 18] clients...!
+[INFO](2024/09/28/ 11:18:41 PM) [Round: 0002] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:18:41 PM) [Round: 0002] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:18:42 PM) [Round: 0002] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:18:42 PM) [Round: 0002] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.3056                
+	=> Accuracy: 9.38%                
+	=> Class Accuracy: ['0.00', '0.00', '0.04', '0.48', '0.00', '0.00', '0.38', '0.00', '0.00', '0.04']
+
+[INFO](2024/09/28/ 11:18:42 PM) [Round: 0002] Clients have uploaded their model 12 times！
+[INFO](2024/09/28/ 11:18:42 PM) [Round: 0002] Overall Accuracy is 0.09583333333333333!
+[INFO](2024/09/28/ 11:18:51 PM) [Round: 0003] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:18:51 PM) [Round: 0003] [0, 3, 4, 6, 7, 19] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:18:51 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3121            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:51 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.3059            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:51 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3002            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:51 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3068            
+	=> Test accuracy: 5.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:51 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3027            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:51 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.3119            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:51 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3055            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:51 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.3104            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:52 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3030            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:52 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3009            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:52 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3033            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:52 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3027            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:52 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.3026            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:52 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3058            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:52 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3083            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:52 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.3067            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:52 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3055            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:52 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.3066            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:52 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3078            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:53 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3061            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:18:53 PM) [Round: 0003] ...finished evaluation of [0, 3, 4, 6, 7, 19] selected clients!
+[INFO](2024/09/28/ 11:18:53 PM) [Round: 0003] Updating [0, 3, 4, 6, 7, 19] clients...!
+[INFO](2024/09/28/ 11:18:53 PM) [Round: 0003] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:18:53 PM) [Round: 0003] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:18:53 PM) [Round: 0003] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:18:54 PM) [Round: 0003] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.3057                
+	=> Accuracy: 9.50%                
+	=> Class Accuracy: ['0.00', '0.00', '0.04', '0.53', '0.00', '0.00', '0.34', '0.00', '0.00', '0.04']
+
+[INFO](2024/09/28/ 11:18:54 PM) [Round: 0003] Clients have uploaded their model 18 times！
+[INFO](2024/09/28/ 11:18:54 PM) [Round: 0003] Overall Accuracy is 0.09555555555555555!
+[INFO](2024/09/28/ 11:19:02 PM) [Round: 0004] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:19:02 PM) [Round: 0004] [0, 2, 8, 9, 10, 17] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:19:02 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3098            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:02 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.3039            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:02 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3042            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:02 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3089            
+	=> Test accuracy: 5.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:02 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3068            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:02 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.3090            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:03 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3081            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:03 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.3060            
+	=> Test accuracy: 5.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:03 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3063            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:03 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3046            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:03 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3076            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:03 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3017            
+	=> Test accuracy: 14.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:03 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.2990            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:03 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3015            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:03 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3067            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:03 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.3040            
+	=> Test accuracy: 13.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:03 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3117            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:04 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.3008            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:04 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3027            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:04 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3045            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:04 PM) [Round: 0004] ...finished evaluation of [0, 2, 8, 9, 10, 17] selected clients!
+[INFO](2024/09/28/ 11:19:04 PM) [Round: 0004] Updating [0, 2, 8, 9, 10, 17] clients...!
+[INFO](2024/09/28/ 11:19:04 PM) [Round: 0004] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:19:04 PM) [Round: 0004] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:19:04 PM) [Round: 0004] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:19:05 PM) [Round: 0004] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.3054                
+	=> Accuracy: 10.04%                
+	=> Class Accuracy: ['0.00', '0.00', '0.03', '0.50', '0.00', '0.00', '0.42', '0.00', '0.00', '0.05']
+
+[INFO](2024/09/28/ 11:19:05 PM) [Round: 0004] Clients have uploaded their model 24 times！
+[INFO](2024/09/28/ 11:19:05 PM) [Round: 0004] Overall Accuracy is 0.09677083333333332!
+[INFO](2024/09/28/ 11:19:14 PM) [Round: 0005] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:19:14 PM) [Round: 0005] [0, 2, 5, 6, 9, 17] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:19:14 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3079            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:14 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.3086            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:14 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3001            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:14 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3030            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:14 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3070            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:14 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.3072            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:14 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3121            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:14 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.3050            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:14 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3066            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:14 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3059            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:15 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3045            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:15 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3035            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:15 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.3021            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:15 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3038            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:15 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3066            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:15 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.3066            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:15 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3102            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:15 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.3053            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:15 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3081            
+	=> Test accuracy: 5.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:15 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3031            
+	=> Test accuracy: 15.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:19:15 PM) [Round: 0005] ...finished evaluation of [0, 2, 5, 6, 9, 17] selected clients!
+[INFO](2024/09/28/ 11:19:16 PM) [Round: 0005] Updating [0, 2, 5, 6, 9, 17] clients...!
+[INFO](2024/09/28/ 11:19:16 PM) [Round: 0005] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:19:16 PM) [Round: 0005] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:19:16 PM) [Round: 0005] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:19:31 PM) 
+[WELCOME] 
+[INFO](2024/09/28/ 11:19:31 PM) [Round: 0000] ...successfully initialized model (# parameters: 1662752)!
+[INFO](2024/09/28/ 11:19:31 PM) [Round: 0000] ...sucessfully initialized dataset controller for [mnist]
+[INFO](2024/09/28/ 11:19:31 PM) [Round: 0000] ...successfully created all 20 clients!
+[INFO](2024/09/28/ 11:19:31 PM) [Round: 0000] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:20:00 PM) 
+[WELCOME] 
+[INFO](2024/09/28/ 11:20:00 PM) [Round: 0000] ...successfully initialized model (# parameters: 1662752)!
+[INFO](2024/09/28/ 11:20:00 PM) [Round: 0000] ...sucessfully initialized dataset controller for [mnist]
+[INFO](2024/09/28/ 11:20:00 PM) [Round: 0000] ...successfully created all 20 clients!
+[INFO](2024/09/28/ 11:20:00 PM) [Round: 0000] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:20:08 PM) [Round: 0001] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:20:08 PM) [Round: 0001] [5, 9, 10, 16, 17, 18] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:20:08 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3056            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:08 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.3073            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:08 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3057            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:08 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3136            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:09 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3056            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:09 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.3015            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:09 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3041            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:09 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.3062            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:09 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3076            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:09 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3092            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:09 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3058            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:09 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3055            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:09 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.3038            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:09 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3064            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:09 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3033            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:10 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.3130            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:10 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3075            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:10 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.3078            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:10 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3078            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:10 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3032            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:10 PM) [Round: 0001] ...finished evaluation of [5, 9, 10, 16, 17, 18] selected clients!
+[INFO](2024/09/28/ 11:20:10 PM) [Round: 0001] Updating [5, 9, 10, 16, 17, 18] clients...!
+[INFO](2024/09/28/ 11:20:10 PM) [Round: 0001] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:20:10 PM) [Round: 0001] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:20:10 PM) [Round: 0001] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:20:11 PM) [Round: 0001] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.3064                
+	=> Accuracy: 9.38%                
+	=> Class Accuracy: ['0.00', '0.00', '0.03', '0.47', '0.00', '0.00', '0.40', '0.00', '0.00', '0.04']
+
+[INFO](2024/09/28/ 11:20:11 PM) [Round: 0001] Clients have uploaded their model 6 times！
+[INFO](2024/09/28/ 11:20:11 PM) [Round: 0001] Overall Accuracy is 0.09375!
+[INFO](2024/09/28/ 11:20:19 PM) [Round: 0002] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:20:19 PM) [Round: 0002] [1, 2, 6, 11, 14, 19] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:20:19 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3144            
+	=> Test accuracy: 5.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:19 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.3043            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:19 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3046            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:19 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3071            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:19 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3088            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:19 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.3060            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:20 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3053            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:20 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.2999            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:20 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3112            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:20 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3036            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:20 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3044            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:20 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3025            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:20 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.3060            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:20 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3079            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:20 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3067            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:20 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.3117            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:20 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3124            
+	=> Test accuracy: 5.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:21 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.3093            
+	=> Test accuracy: 5.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:21 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3056            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:21 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3124            
+	=> Test accuracy: 5.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:21 PM) [Round: 0002] ...finished evaluation of [1, 2, 6, 11, 14, 19] selected clients!
+[INFO](2024/09/28/ 11:20:21 PM) [Round: 0002] Updating [1, 2, 6, 11, 14, 19] clients...!
+[INFO](2024/09/28/ 11:20:21 PM) [Round: 0002] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:20:21 PM) [Round: 0002] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:20:21 PM) [Round: 0002] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:20:22 PM) [Round: 0002] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.3072                
+	=> Accuracy: 8.38%                
+	=> Class Accuracy: ['0.00', '0.00', '0.02', '0.43', '0.00', '0.00', '0.37', '0.00', '0.00', '0.03']
+
+[INFO](2024/09/28/ 11:20:22 PM) [Round: 0002] Clients have uploaded their model 12 times！
+[INFO](2024/09/28/ 11:20:22 PM) [Round: 0002] Overall Accuracy is 0.08875!
+[INFO](2024/09/28/ 11:20:30 PM) [Round: 0003] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:20:30 PM) [Round: 0003] [0, 1, 3, 4, 10, 15] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:20:30 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3056            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:30 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.3047            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:30 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3071            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:30 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3085            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:30 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3002            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:30 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.3039            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:30 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3109            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:30 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.3053            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:31 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3029            
+	=> Test accuracy: 5.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:31 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3074            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:31 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3054            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:31 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3061            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:31 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.3046            
+	=> Test accuracy: 14.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:31 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3071            
+	=> Test accuracy: 13.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:31 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3027            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:31 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.3081            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:31 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3104            
+	=> Test accuracy: 5.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:31 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.3138            
+	=> Test accuracy: 2.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:31 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3006            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:32 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3057            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:32 PM) [Round: 0003] ...finished evaluation of [0, 1, 3, 4, 10, 15] selected clients!
+[INFO](2024/09/28/ 11:20:32 PM) [Round: 0003] Updating [0, 1, 3, 4, 10, 15] clients...!
+[INFO](2024/09/28/ 11:20:32 PM) [Round: 0003] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:20:32 PM) [Round: 0003] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:20:32 PM) [Round: 0003] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:20:33 PM) [Round: 0003] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.3060                
+	=> Accuracy: 8.92%                
+	=> Class Accuracy: ['0.00', '0.00', '0.03', '0.43', '0.00', '0.00', '0.39', '0.00', '0.00', '0.04']
+
+[INFO](2024/09/28/ 11:20:33 PM) [Round: 0003] Clients have uploaded their model 18 times！
+[INFO](2024/09/28/ 11:20:33 PM) [Round: 0003] Overall Accuracy is 0.08888888888888889!
+[INFO](2024/09/28/ 11:20:41 PM) [Round: 0004] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:20:41 PM) [Round: 0004] [0, 1, 3, 14, 15, 19] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:20:41 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3020            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:41 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.3072            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:41 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3082            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:41 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3055            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:41 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3048            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:41 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.3055            
+	=> Test accuracy: 5.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:41 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3076            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:41 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.3067            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:41 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3030            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:42 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3029            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:42 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3111            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:42 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3060            
+	=> Test accuracy: 5.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:42 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.3007            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:42 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3094            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:42 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3029            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:42 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.3050            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:42 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3074            
+	=> Test accuracy: 5.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:42 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.3069            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:42 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3066            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:42 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3043            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:20:43 PM) [Round: 0004] ...finished evaluation of [0, 1, 3, 14, 15, 19] selected clients!
+[INFO](2024/09/28/ 11:20:43 PM) [Round: 0004] Updating [0, 1, 3, 14, 15, 19] clients...!
+[INFO](2024/09/28/ 11:20:43 PM) [Round: 0004] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:20:43 PM) [Round: 0004] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:20:43 PM) [Round: 0004] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:21:00 PM) 
+[WELCOME] 
+[INFO](2024/09/28/ 11:21:00 PM) [Round: 0000] ...successfully initialized model (# parameters: 1662752)!
+[INFO](2024/09/28/ 11:21:00 PM) [Round: 0000] ...sucessfully initialized dataset controller for [mnist]
+[INFO](2024/09/28/ 11:21:00 PM) [Round: 0000] ...successfully created all 20 clients!
+[INFO](2024/09/28/ 11:21:00 PM) [Round: 0000] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:21:08 PM) [Round: 0001] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:21:08 PM) [Round: 0001] [6, 7, 11, 12, 15, 16] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:21:08 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.1542            
+	=> Test accuracy: 39.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:08 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.1257            
+	=> Test accuracy: 40.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:08 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.1433            
+	=> Test accuracy: 31.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:08 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.1410            
+	=> Test accuracy: 42.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:08 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.1421            
+	=> Test accuracy: 37.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:08 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.1464            
+	=> Test accuracy: 35.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:08 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.1308            
+	=> Test accuracy: 29.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:08 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.1523            
+	=> Test accuracy: 30.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:08 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.1450            
+	=> Test accuracy: 37.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:08 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.1445            
+	=> Test accuracy: 45.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:09 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.1499            
+	=> Test accuracy: 44.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:09 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.1293            
+	=> Test accuracy: 41.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:09 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.1449            
+	=> Test accuracy: 36.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:09 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.1402            
+	=> Test accuracy: 42.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:09 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.1404            
+	=> Test accuracy: 40.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:09 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.1408            
+	=> Test accuracy: 35.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:09 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.1386            
+	=> Test accuracy: 33.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:09 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.1575            
+	=> Test accuracy: 38.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:09 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.1505            
+	=> Test accuracy: 44.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:09 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.1462            
+	=> Test accuracy: 45.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:21:09 PM) [Round: 0001] ...finished evaluation of [6, 7, 11, 12, 15, 16] selected clients!
+[INFO](2024/09/28/ 11:21:09 PM) [Round: 0001] Updating [6, 7, 11, 12, 15, 16] clients...!
+[INFO](2024/09/28/ 11:21:10 PM) [Round: 0001] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:21:10 PM) [Round: 0001] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:21:10 PM) [Round: 0001] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:21:10 PM) [Round: 0001] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.2544                
+	=> Accuracy: 19.79%                
+	=> Class Accuracy: ['0.14', '0.00', '0.34', '0.78', '0.00', '0.00', '0.46', '0.00', '0.01', '0.25']
+
+[INFO](2024/09/28/ 11:21:11 PM) [Round: 0001] Clients have uploaded their model 6 times！
+[INFO](2024/09/28/ 11:21:11 PM) [Round: 0001] Overall Accuracy is 0.19791666666666666!
+[INFO](2024/09/28/ 11:22:12 PM) 
+[WELCOME] 
+[INFO](2024/09/28/ 11:22:12 PM) [Round: 0000] ...successfully initialized model (# parameters: 1662752)!
+[INFO](2024/09/28/ 11:22:12 PM) [Round: 0000] ...sucessfully initialized dataset controller for [mnist]
+[INFO](2024/09/28/ 11:22:12 PM) [Round: 0000] ...successfully created all 20 clients!
+[INFO](2024/09/28/ 11:22:12 PM) [Round: 0000] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:22:20 PM) [Round: 0001] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:22:20 PM) [Round: 0001] [0, 2, 4, 6, 8, 10] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:22:20 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3088            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:20 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.3063            
+	=> Test accuracy: 5.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:21 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3043            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:21 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3103            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:21 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3062            
+	=> Test accuracy: 5.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:21 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.3022            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:21 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3059            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:21 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.3040            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:21 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3074            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:21 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3013            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:21 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3058            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:21 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3058            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:21 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.3044            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:22 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3064            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:22 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3068            
+	=> Test accuracy: 5.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:22 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.3034            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:22 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3049            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:22 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.3024            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:22 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3096            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:22 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3090            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:22:22 PM) [Round: 0001] ...finished evaluation of [0, 2, 4, 6, 8, 10] selected clients!
+[INFO](2024/09/28/ 11:22:22 PM) [Round: 0001] Updating [0, 2, 4, 6, 8, 10] clients...!
+[INFO](2024/09/28/ 11:22:22 PM) [Round: 0001] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:22:22 PM) [Round: 0001] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:22:22 PM) [Round: 0001] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:22:23 PM) [Round: 0001] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.3058                
+	=> Accuracy: 8.92%                
+	=> Class Accuracy: ['0.00', '0.00', '0.03', '0.45', '0.00', '0.00', '0.38', '0.00', '0.00', '0.04']
+
+[INFO](2024/09/28/ 11:22:23 PM) [Round: 0001] Clients have uploaded their model 6 times！
+[INFO](2024/09/28/ 11:22:23 PM) [Round: 0001] Overall Accuracy is 0.08916666666666667!
+[INFO](2024/09/28/ 11:22:51 PM) 
+[WELCOME] 
+[INFO](2024/09/28/ 11:22:51 PM) [Round: 0000] ...successfully initialized model (# parameters: 1662752)!
+[INFO](2024/09/28/ 11:22:51 PM) [Round: 0000] ...sucessfully initialized dataset controller for [mnist]
+[INFO](2024/09/28/ 11:22:51 PM) [Round: 0000] ...successfully created all 20 clients!
+[INFO](2024/09/28/ 11:22:51 PM) [Round: 0000] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:22:59 PM) [Round: 0001] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:22:59 PM) [Round: 0001] [1, 4, 7, 13, 14, 19] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:23:00 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3035            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:00 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.3047            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:00 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3058            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:00 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3070            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:00 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3119            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:00 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.2966            
+	=> Test accuracy: 14.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:00 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3031            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:00 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.3008            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:00 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3053            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:00 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3020            
+	=> Test accuracy: 13.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:00 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3061            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:01 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3064            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:01 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.3027            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:01 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3071            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:01 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3065            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:01 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.2993            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:01 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3039            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:01 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.3101            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:01 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3023            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:01 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3047            
+	=> Test accuracy: 13.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:01 PM) [Round: 0001] ...finished evaluation of [1, 4, 7, 13, 14, 19] selected clients!
+[INFO](2024/09/28/ 11:23:01 PM) [Round: 0001] Updating [1, 4, 7, 13, 14, 19] clients...!
+[INFO](2024/09/28/ 11:23:01 PM) [Round: 0001] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:23:02 PM) [Round: 0001] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:23:02 PM) [Round: 0001] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:23:02 PM) [Round: 0001] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.3046                
+	=> Accuracy: 9.46%                
+	=> Class Accuracy: ['0.00', '0.00', '0.03', '0.44', '0.00', '0.00', '0.43', '0.00', '0.00', '0.05']
+
+[INFO](2024/09/28/ 11:23:02 PM) [Round: 0001] Clients have uploaded their model 6 times！
+[INFO](2024/09/28/ 11:23:02 PM) [Round: 0001] Overall Accuracy is 0.09458333333333334!
+[INFO](2024/09/28/ 11:23:11 PM) 
+[WELCOME] 
+[INFO](2024/09/28/ 11:23:12 PM) [Round: 0000] ...successfully initialized model (# parameters: 1662752)!
+[INFO](2024/09/28/ 11:23:12 PM) [Round: 0000] ...sucessfully initialized dataset controller for [mnist]
+[INFO](2024/09/28/ 11:23:12 PM) [Round: 0000] ...successfully created all 20 clients!
+[INFO](2024/09/28/ 11:23:12 PM) [Round: 0000] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:23:20 PM) [Round: 0001] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:23:20 PM) [Round: 0001] [1, 5, 6, 11, 16, 17] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:23:20 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3047            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:20 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.3059            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:20 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3056            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:20 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3099            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:20 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3072            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:20 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.3056            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:20 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3019            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:21 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.3040            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:21 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3040            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:21 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3027            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:21 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3023            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:21 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3054            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:21 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.3046            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:21 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3081            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:21 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3069            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:21 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.3057            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:21 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3057            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:21 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.3040            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:22 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3084            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:22 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3045            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:22 PM) [Round: 0001] ...finished evaluation of [1, 5, 6, 11, 16, 17] selected clients!
+[INFO](2024/09/28/ 11:23:22 PM) [Round: 0001] Updating [1, 5, 6, 11, 16, 17] clients...!
+[INFO](2024/09/28/ 11:23:22 PM) [Round: 0001] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:23:22 PM) [Round: 0001] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:23:22 PM) [Round: 0001] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:23:23 PM) [Round: 0001] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.3054                
+	=> Accuracy: 9.12%                
+	=> Class Accuracy: ['0.00', '0.00', '0.02', '0.42', '0.00', '0.00', '0.42', '0.00', '0.00', '0.04']
+
+[INFO](2024/09/28/ 11:23:23 PM) [Round: 0001] Clients have uploaded their model 6 times！
+[INFO](2024/09/28/ 11:23:23 PM) [Round: 0001] Overall Accuracy is 0.09125!
+[INFO](2024/09/28/ 11:23:31 PM) [Round: 0002] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:23:31 PM) [Round: 0002] [1, 2, 7, 12, 17, 19] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:23:31 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3022            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:31 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.3009            
+	=> Test accuracy: 15.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:31 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3105            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:31 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3074            
+	=> Test accuracy: 13.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:31 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3065            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:31 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.3058            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:32 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3052            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:32 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.3076            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:32 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3091            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:32 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3016            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:32 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3008            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:32 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3062            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:32 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.3064            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:32 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3066            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:32 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3085            
+	=> Test accuracy: 5.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:32 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.3069            
+	=> Test accuracy: 5.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:32 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3108            
+	=> Test accuracy: 4.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:33 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.3055            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:33 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3056            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:33 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3042            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:33 PM) [Round: 0002] ...finished evaluation of [1, 2, 7, 12, 17, 19] selected clients!
+[INFO](2024/09/28/ 11:23:33 PM) [Round: 0002] Updating [1, 2, 7, 12, 17, 19] clients...!
+[INFO](2024/09/28/ 11:23:33 PM) [Round: 0002] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:23:33 PM) [Round: 0002] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:23:33 PM) [Round: 0002] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:23:34 PM) [Round: 0002] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.3060                
+	=> Accuracy: 9.42%                
+	=> Class Accuracy: ['0.00', '0.00', '0.01', '0.46', '0.00', '0.00', '0.42', '0.00', '0.00', '0.04']
+
+[INFO](2024/09/28/ 11:23:34 PM) [Round: 0002] Clients have uploaded their model 12 times！
+[INFO](2024/09/28/ 11:23:34 PM) [Round: 0002] Overall Accuracy is 0.09270833333333334!
+[INFO](2024/09/28/ 11:23:42 PM) [Round: 0003] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:23:42 PM) [Round: 0003] [0, 5, 7, 10, 11, 17] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:23:42 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3117            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:42 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.3048            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:42 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3013            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:42 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3015            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:42 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3090            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:42 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.3072            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:42 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3037            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:43 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.3035            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:43 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3095            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:43 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3021            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:43 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3003            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:43 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3031            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:43 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.3045            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:43 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3059            
+	=> Test accuracy: 5.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:43 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3087            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:43 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.3008            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:43 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3087            
+	=> Test accuracy: 5.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:43 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.2992            
+	=> Test accuracy: 14.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:44 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3081            
+	=> Test accuracy: 5.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:44 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3022            
+	=> Test accuracy: 15.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:44 PM) [Round: 0003] ...finished evaluation of [0, 5, 7, 10, 11, 17] selected clients!
+[INFO](2024/09/28/ 11:23:44 PM) [Round: 0003] Updating [0, 5, 7, 10, 11, 17] clients...!
+[INFO](2024/09/28/ 11:23:44 PM) [Round: 0003] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:23:44 PM) [Round: 0003] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:23:44 PM) [Round: 0003] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:23:45 PM) [Round: 0003] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.3048                
+	=> Accuracy: 9.46%                
+	=> Class Accuracy: ['0.00', '0.00', '0.03', '0.51', '0.00', '0.00', '0.38', '0.00', '0.00', '0.03']
+
+[INFO](2024/09/28/ 11:23:45 PM) [Round: 0003] Clients have uploaded their model 18 times！
+[INFO](2024/09/28/ 11:23:45 PM) [Round: 0003] Overall Accuracy is 0.09333333333333334!
+[INFO](2024/09/28/ 11:23:53 PM) [Round: 0004] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:23:53 PM) [Round: 0004] [2, 3, 8, 10, 14, 17] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:23:53 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3094            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:53 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.3072            
+	=> Test accuracy: 5.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:53 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3102            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:53 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3073            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:53 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3012            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:53 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.3048            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:53 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3043            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:54 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.3072            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:54 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3021            
+	=> Test accuracy: 13.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:54 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3045            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:54 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3032            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:54 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3085            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:54 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.3062            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:54 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3041            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:54 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3093            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:54 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.3064            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:54 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3043            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:54 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.3026            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:55 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3083            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:55 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3085            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:23:55 PM) [Round: 0004] ...finished evaluation of [2, 3, 8, 10, 14, 17] selected clients!
+[INFO](2024/09/28/ 11:23:55 PM) [Round: 0004] Updating [2, 3, 8, 10, 14, 17] clients...!
+[INFO](2024/09/28/ 11:23:55 PM) [Round: 0004] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:23:55 PM) [Round: 0004] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:23:55 PM) [Round: 0004] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:23:56 PM) [Round: 0004] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.3059                
+	=> Accuracy: 9.50%                
+	=> Class Accuracy: ['0.00', '0.00', '0.05', '0.48', '0.00', '0.00', '0.40', '0.00', '0.00', '0.03']
+
+[INFO](2024/09/28/ 11:23:56 PM) [Round: 0004] Clients have uploaded their model 24 times！
+[INFO](2024/09/28/ 11:23:56 PM) [Round: 0004] Overall Accuracy is 0.09375!
+[INFO](2024/09/28/ 11:24:04 PM) [Round: 0005] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:24:04 PM) [Round: 0005] [0, 1, 5, 7, 13, 15] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:24:23 PM) 
+[WELCOME] 
+[INFO](2024/09/28/ 11:24:23 PM) [Round: 0000] ...successfully initialized model (# parameters: 1662752)!
+[INFO](2024/09/28/ 11:24:23 PM) [Round: 0000] ...sucessfully initialized dataset controller for [mnist]
+[INFO](2024/09/28/ 11:24:23 PM) [Round: 0000] ...successfully created all 20 clients!
+[INFO](2024/09/28/ 11:24:23 PM) [Round: 0000] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:24:31 PM) [Round: 0001] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:24:31 PM) [Round: 0001] [0, 4, 5, 13, 15, 19] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:24:31 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.1282            
+	=> Test accuracy: 46.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:31 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.1392            
+	=> Test accuracy: 25.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:31 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.1317            
+	=> Test accuracy: 39.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:31 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.1303            
+	=> Test accuracy: 32.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:32 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.1361            
+	=> Test accuracy: 39.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:32 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.1381            
+	=> Test accuracy: 35.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:32 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.1367            
+	=> Test accuracy: 30.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:32 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.1451            
+	=> Test accuracy: 35.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:32 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.1364            
+	=> Test accuracy: 31.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:32 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.1478            
+	=> Test accuracy: 43.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:32 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.1444            
+	=> Test accuracy: 31.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:32 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.1423            
+	=> Test accuracy: 35.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:32 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.1471            
+	=> Test accuracy: 22.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:32 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.1227            
+	=> Test accuracy: 50.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:32 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.1419            
+	=> Test accuracy: 30.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:33 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.1296            
+	=> Test accuracy: 50.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:33 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.1439            
+	=> Test accuracy: 32.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:33 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.1515            
+	=> Test accuracy: 37.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:33 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.1428            
+	=> Test accuracy: 35.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:33 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.1396            
+	=> Test accuracy: 37.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:24:33 PM) [Round: 0001] ...finished evaluation of [0, 4, 5, 13, 15, 19] selected clients!
+[INFO](2024/09/28/ 11:24:33 PM) [Round: 0001] Updating [0, 4, 5, 13, 15, 19] clients...!
+[INFO](2024/09/28/ 11:24:33 PM) [Round: 0001] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:24:33 PM) [Round: 0001] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:24:33 PM) [Round: 0001] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:24:34 PM) [Round: 0001] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.2542                
+	=> Accuracy: 21.25%                
+	=> Class Accuracy: ['0.12', '0.00', '0.40', '0.73', '0.00', '0.00', '0.53', '0.00', '0.00', '0.34']
+
+[INFO](2024/09/28/ 11:24:34 PM) [Round: 0001] Clients have uploaded their model 6 times！
+[INFO](2024/09/28/ 11:24:34 PM) [Round: 0001] Overall Accuracy is 0.2125!
+[INFO](2024/09/28/ 11:25:33 PM) 
+[WELCOME] 
+[INFO](2024/09/28/ 11:25:33 PM) [Round: 0000] ...successfully initialized model (# parameters: 1662752)!
+[INFO](2024/09/28/ 11:25:33 PM) [Round: 0000] ...sucessfully initialized dataset controller for [mnist]
+[INFO](2024/09/28/ 11:25:33 PM) [Round: 0000] ...successfully created all 20 clients!
+[INFO](2024/09/28/ 11:25:33 PM) [Round: 0000] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:25:41 PM) [Round: 0001] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:25:41 PM) [Round: 0001] [1, 2, 3, 4, 9, 19] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:25:41 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3054            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:42 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.3057            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:42 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3029            
+	=> Test accuracy: 15.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:42 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3003            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:42 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3103            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:42 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.3005            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:42 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3107            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:42 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.3032            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:42 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3044            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:42 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3016            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:42 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3062            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:42 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3007            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:43 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.3118            
+	=> Test accuracy: 5.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:43 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3037            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:43 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3062            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:43 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.3043            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:43 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3051            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:43 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.3055            
+	=> Test accuracy: 11.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:43 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3049            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:43 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3064            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:25:43 PM) [Round: 0001] ...finished evaluation of [1, 2, 3, 4, 9, 19] selected clients!
+[INFO](2024/09/28/ 11:25:43 PM) [Round: 0001] Updating [1, 2, 3, 4, 9, 19] clients...!
+[INFO](2024/09/28/ 11:25:43 PM) [Round: 0001] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:25:43 PM) [Round: 0001] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:25:44 PM) [Round: 0001] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:25:44 PM) [Round: 0001] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.3050                
+	=> Accuracy: 9.96%                
+	=> Class Accuracy: ['0.00', '0.00', '0.03', '0.48', '0.00', '0.00', '0.43', '0.00', '0.00', '0.05']
+
+[INFO](2024/09/28/ 11:25:44 PM) [Round: 0001] Clients have uploaded their model 6 times！
+[INFO](2024/09/28/ 11:25:44 PM) [Round: 0001] Overall Accuracy is 0.09958333333333333!
+[INFO](2024/09/28/ 11:25:55 PM) 
+[WELCOME] 
+[INFO](2024/09/28/ 11:25:55 PM) [Round: 0000] ...successfully initialized model (# parameters: 1662752)!
+[INFO](2024/09/28/ 11:25:55 PM) [Round: 0000] ...sucessfully initialized dataset controller for [mnist]
+[INFO](2024/09/28/ 11:25:55 PM) [Round: 0000] ...successfully created all 20 clients!
+[INFO](2024/09/28/ 11:25:55 PM) [Round: 0000] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:26:03 PM) [Round: 0001] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:26:03 PM) [Round: 0001] [0, 2, 5, 10, 13, 17] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:26:03 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.3018            
+	=> Test accuracy: 12.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:03 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.3085            
+	=> Test accuracy: 9.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:04 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.3053            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:04 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.3083            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:04 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.3059            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:04 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.3074            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:04 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.3119            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:04 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.3113            
+	=> Test accuracy: 5.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:04 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.3055            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:04 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.3067            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:04 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.3059            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:04 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.3062            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:04 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.3078            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:05 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.3076            
+	=> Test accuracy: 8.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:05 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.3001            
+	=> Test accuracy: 16.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:05 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.3048            
+	=> Test accuracy: 6.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:05 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.3024            
+	=> Test accuracy: 7.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:05 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.3034            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:05 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.3068            
+	=> Test accuracy: 10.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:05 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.3041            
+	=> Test accuracy: 10.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:26:05 PM) [Round: 0001] ...finished evaluation of [0, 2, 5, 10, 13, 17] selected clients!
+[INFO](2024/09/28/ 11:26:05 PM) [Round: 0001] Updating [0, 2, 5, 10, 13, 17] clients...!
+[INFO](2024/09/28/ 11:26:05 PM) [Round: 0001] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:26:05 PM) [Round: 0001] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:26:05 PM) [Round: 0001] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:26:06 PM) [Round: 0001] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.3061                
+	=> Accuracy: 8.92%                
+	=> Class Accuracy: ['0.00', '0.00', '0.02', '0.48', '0.00', '0.00', '0.35', '0.00', '0.00', '0.04']
+
+[INFO](2024/09/28/ 11:26:06 PM) [Round: 0001] Clients have uploaded their model 6 times！
+[INFO](2024/09/28/ 11:26:06 PM) [Round: 0001] Overall Accuracy is 0.08916666666666667!
+[INFO](2024/09/28/ 11:27:09 PM) 
+[WELCOME] 
+[INFO](2024/09/28/ 11:27:09 PM) [Round: 0000] ...successfully initialized model (# parameters: 1662752)!
+[INFO](2024/09/28/ 11:27:09 PM) [Round: 0000] ...sucessfully initialized dataset controller for [mnist]
+[INFO](2024/09/28/ 11:27:09 PM) [Round: 0000] ...successfully created all 20 clients!
+[INFO](2024/09/28/ 11:27:10 PM) [Round: 0000] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:30:14 PM) 
+[WELCOME] 
+[INFO](2024/09/28/ 11:30:15 PM) [Round: 0000] ...successfully initialized model (# parameters: 1662752)!
+[INFO](2024/09/28/ 11:30:15 PM) [Round: 0000] ...sucessfully initialized dataset controller for [mnist]
+[INFO](2024/09/28/ 11:30:15 PM) [Round: 0000] ...successfully created all 20 clients!
+[INFO](2024/09/28/ 11:30:15 PM) [Round: 0000] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:31:23 PM) 
+[WELCOME] 
+[INFO](2024/09/28/ 11:31:23 PM) [Round: 0000] ...successfully initialized model (# parameters: 1662752)!
+[INFO](2024/09/28/ 11:31:23 PM) [Round: 0000] ...sucessfully initialized dataset controller for [mnist]
+[INFO](2024/09/28/ 11:31:23 PM) [Round: 0000] ...successfully created all 20 clients!
+[INFO](2024/09/28/ 11:31:23 PM) [Round: 0000] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:31:31 PM) [Round: 0001] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:31:32 PM) [Round: 0001] [2, 3, 5, 10, 15, 18] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:31:32 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.1682            
+	=> Test accuracy: 42.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:32 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.1683            
+	=> Test accuracy: 35.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:32 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.1721            
+	=> Test accuracy: 34.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:32 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.1641            
+	=> Test accuracy: 33.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:32 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.1531            
+	=> Test accuracy: 27.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:32 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.1533            
+	=> Test accuracy: 27.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:32 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.1687            
+	=> Test accuracy: 27.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:32 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.1837            
+	=> Test accuracy: 30.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:32 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.1667            
+	=> Test accuracy: 30.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:32 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.1659            
+	=> Test accuracy: 44.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:32 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.1585            
+	=> Test accuracy: 36.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:33 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.1607            
+	=> Test accuracy: 35.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:33 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.1723            
+	=> Test accuracy: 40.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:33 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.1691            
+	=> Test accuracy: 38.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:33 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.1750            
+	=> Test accuracy: 32.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:33 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.1696            
+	=> Test accuracy: 40.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:33 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.1679            
+	=> Test accuracy: 36.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:33 PM) 	[Client 0017] ...finished evaluation!            
+	=> Test loss: 2.1714            
+	=> Test accuracy: 35.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:33 PM) 	[Client 0018] ...finished evaluation!            
+	=> Test loss: 2.1650            
+	=> Test accuracy: 49.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:33 PM) 	[Client 0019] ...finished evaluation!            
+	=> Test loss: 2.1697            
+	=> Test accuracy: 36.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:33 PM) [Round: 0001] ...finished evaluation of [2, 3, 5, 10, 15, 18] selected clients!
+[INFO](2024/09/28/ 11:31:33 PM) [Round: 0001] Updating [2, 3, 5, 10, 15, 18] clients...!
+[INFO](2024/09/28/ 11:31:33 PM) [Round: 0001] ...with the weights of [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:31:34 PM) [Round: 0001] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:31:34 PM) [Round: 0001] Current test set distribution: [['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']]. 
+[INFO](2024/09/28/ 11:31:34 PM) [Round: 0001] Evaluate global model's performance...!                
+	[Server] ...finished evaluation!                
+	=> Loss: 2.2600                
+	=> Accuracy: 18.42%                
+	=> Class Accuracy: ['0.08', '0.00', '0.30', '0.75', '0.00', '0.00', '0.52', '0.00', '0.00', '0.18']
+
+[INFO](2024/09/28/ 11:31:35 PM) [Round: 0001] Clients have uploaded their model 6 times！
+[INFO](2024/09/28/ 11:31:35 PM) [Round: 0001] Overall Accuracy is 0.18416666666666667!
+[INFO](2024/09/28/ 11:31:42 PM) 
+[WELCOME] 
+[INFO](2024/09/28/ 11:31:42 PM) [Round: 0000] ...successfully initialized model (# parameters: 1662752)!
+[INFO](2024/09/28/ 11:31:42 PM) [Round: 0000] ...sucessfully initialized dataset controller for [mnist]
+[INFO](2024/09/28/ 11:31:42 PM) [Round: 0000] ...successfully created all 20 clients!
+[INFO](2024/09/28/ 11:31:42 PM) [Round: 0000] ...successfully transmitted models to all 20 clients!
+[INFO](2024/09/28/ 11:31:51 PM) [Round: 0001] ...20 clients are selected and updated
+[INFO](2024/09/28/ 11:31:51 PM) [Round: 0001] [0, 1, 2, 6, 11, 14] clients are selected for the next update with possibility [0.05 0.05 0.05 0.05 0.05 0.05].
+[INFO](2024/09/28/ 11:31:51 PM) 	[Client 0000] ...finished evaluation!            
+	=> Test loss: 2.1655            
+	=> Test accuracy: 39.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:51 PM) 	[Client 0001] ...finished evaluation!            
+	=> Test loss: 2.1666            
+	=> Test accuracy: 34.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:51 PM) 	[Client 0002] ...finished evaluation!            
+	=> Test loss: 2.1664            
+	=> Test accuracy: 38.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:52 PM) 	[Client 0003] ...finished evaluation!            
+	=> Test loss: 2.1727            
+	=> Test accuracy: 39.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:52 PM) 	[Client 0004] ...finished evaluation!            
+	=> Test loss: 2.1778            
+	=> Test accuracy: 32.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:52 PM) 	[Client 0005] ...finished evaluation!            
+	=> Test loss: 2.1709            
+	=> Test accuracy: 31.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:52 PM) 	[Client 0006] ...finished evaluation!            
+	=> Test loss: 2.1687            
+	=> Test accuracy: 29.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:52 PM) 	[Client 0007] ...finished evaluation!            
+	=> Test loss: 2.1752            
+	=> Test accuracy: 32.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:52 PM) 	[Client 0008] ...finished evaluation!            
+	=> Test loss: 2.1709            
+	=> Test accuracy: 31.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:52 PM) 	[Client 0009] ...finished evaluation!            
+	=> Test loss: 2.1781            
+	=> Test accuracy: 37.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:52 PM) 	[Client 0010] ...finished evaluation!            
+	=> Test loss: 2.1746            
+	=> Test accuracy: 44.17%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:52 PM) 	[Client 0011] ...finished evaluation!            
+	=> Test loss: 2.1794            
+	=> Test accuracy: 30.83%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:52 PM) 	[Client 0012] ...finished evaluation!            
+	=> Test loss: 2.1661            
+	=> Test accuracy: 30.00%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:52 PM) 	[Client 0013] ...finished evaluation!            
+	=> Test loss: 2.1644            
+	=> Test accuracy: 32.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:53 PM) 	[Client 0014] ...finished evaluation!            
+	=> Test loss: 2.1800            
+	=> Test accuracy: 23.33%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:53 PM) 	[Client 0015] ...finished evaluation!            
+	=> Test loss: 2.1588            
+	=> Test accuracy: 37.50%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
+[INFO](2024/09/28/ 11:31:53 PM) 	[Client 0016] ...finished evaluation!            
+	=> Test loss: 2.1734            
+	=> Test accuracy: 41.67%            
+	=> Distribution: ['0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10', '0.10']
+
