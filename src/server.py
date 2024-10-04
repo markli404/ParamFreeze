@@ -38,6 +38,7 @@ class Server(object):
         self.dataloader = None
         self.round_upload = []
         self.round_accuracy = []
+        self.round_compression_rate = []
 
         # scaffold
         self.c_global = None
@@ -403,6 +404,20 @@ class Server(object):
         # self.model,self.sparse_weights = update_method(sampled_client_indices, coeff)
         self.model = update_method(sampled_client_indices, coeff)
 
+    def check_compression_rate(self):
+        gradients = []
+        abs_gradients = []
+        compression_rate = []
+        for i in range(len(self.clients)):
+            gradient = self.clients[i].get_gradient()
+            abs_gradient= [abs(num) for num in gradient.tolist()]
+            compression_rate.append(round(sum(i == 0 for i in gradient) / len(gradient), 2) * 100)
+            gradients.append(gradient)
+            abs_gradients.append(abs_gradient)
+
+        self.round_compression_rate.append(np.mean(compression_rate))
+        return f'upload average compression rate is {np.mean(compression_rate)}'
+
     def train_without_drift(self, sample_method, coeff_method, update_method):
         # assign new training and test set based on distribution
         for client in self.clients:
@@ -420,6 +435,10 @@ class Server(object):
 
         # evaluate selected clients with local dataset
         message = self.CommunicationController.evaluate_all_models()
+        self.log(message)
+
+        # evaluate all clients compression rate
+        message = self.check_compression_rate()
         self.log(message)
 
         # update model parameters of the selected clients and update the global model

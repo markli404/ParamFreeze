@@ -1,18 +1,17 @@
 import copy
 import gc
+import io
 import logging
 
 import numpy as np
-import torch
-import matplotlib.pyplot as plt
-import io
+
 # custom packages
 from utils.utils import pretty_list
+
 logger = logging.getLogger(__name__)
 import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import types
+
+
 class Client(object):
     def __init__(self,
                  client_id,
@@ -103,6 +102,8 @@ class Client(object):
             return self.client_update_fedavg()
         elif update_type == 'param_freeze':
             return self.client_update_param_freeze()
+        elif update_type == 'reversed_l1':
+            return self.client_update_adaptive_l1_mask()
         else:
             return self.client_update_fedavg()
 
@@ -127,8 +128,88 @@ class Client(object):
 
         self.client_current.to("cpu")
 
+    def client_update_reversed_l1(self):
+        """Update local model using local dataset."""
+        self.client_current.train()
+        self.client_current.to(self.device)
+
+        optimizer = eval(self.optimizer)(self.client_current.parameters(), **self.optim_config)
+        global_parameters = {}
+        for name, param in self.global_current.named_parameters():
+            global_parameters[name] = param.clone().detach()  # 复制参数并确保不计算梯度
+
+        for e in range(self.local_epoch):
+            for data, labels in self.train.get_dataloader():
+                data, labels = data.float().to(self.device), labels.long().to(self.device)
+
+                optimizer.zero_grad()
+                outputs = self.client_current(data)
+                loss = eval(self.criterion)()(outputs, labels)
+
+                for name, param in self.client_current.named_parameters():
+                    update_magnitude = torch.abs(param - global_parameters[name])
+                    reward_threshold = np.percentile(np.abs(param.detach().cpu().numpy().flatten()), 80)
+
+                    reward_mask = update_magnitude >= reward_threshold  # 大于阈值的更新
+                    penalty_mask = update_magnitude < reward_threshold  # 小于阈值的更新
+
+                    loss -= 0.1 * torch.sum(reward_mask * update_magnitude)  # 奖励更新幅度大的参数
+                    loss += 0.1 * torch.sum(penalty_mask * update_magnitude)  # 惩罚更新幅度小的参数
+                loss.backward()
+                optimizer.step()
+
+                if self.device == "cuda": torch.cuda.empty_cache()
+
+        self.client_current.to("cpu")
+
+    def client_update_adaptive_l1_mask(self):
+        """Update local model using local dataset with adaptive L1 regularization using mask."""
+        self.client_current.train()
+        self.client_current.to(self.device)
+        global_weight_collector = list(self.global_current.to(self.device).parameters())
+        mu = 0.02
+        alpha = 0  # 动态阈值系数
+        optimizer = eval(self.optimizer)(self.client_current.parameters(), **self.optim_config)
+        num_params = 0
+        num_l1_applied = 0
+        for e in range(self.local_epoch):
+            for data, labels in self.train.get_dataloader():
+                data, labels = data.float().to(self.device), labels.long().to(self.device)
+                optimizer.zero_grad()
+                outputs = self.client_current(data)
+                loss = eval(self.criterion)()(outputs, labels)
+                param_deltas = []
+                abs_param_deltas = []
+                for param_index, param in enumerate(self.client_current.parameters()):
+                    delta_theta = param - global_weight_collector[param_index]
+                    param_deltas.append(delta_theta)
+                    abs_param_deltas.append(torch.abs(delta_theta))
+                delta_thetas = np.concatenate(
+                    [delta_theta.detach().cpu().numpy().ravel() for delta_theta in param_deltas])
+                abs_delta_thetas = np.concatenate(
+                    [abs_delta_theta.detach().cpu().numpy().ravel() for abs_delta_theta in abs_param_deltas])
+                tau = np.mean(abs_delta_thetas) + alpha * np.std(abs_delta_thetas)
+                print('tau is ', tau)
+                mask = [torch.abs(delta_theta) < tau for delta_theta in param_deltas]
+                l1_reg = 0.0
+                num_params = 0
+                num_l1_applied = 0
+                for delta_theta, mask_tensor in zip(param_deltas, mask):
+                    sparse_delta = delta_theta * mask_tensor  # 对 delta_theta 进行 mask
+                    l1_reg += mu * torch.norm(sparse_delta, p=1)
+                    num_params += delta_theta.numel()
+                    num_l1_applied += mask_tensor.sum().item()
+                loss += l1_reg
+                loss.backward()
+                optimizer.step()
+                if self.device == "cuda": torch.cuda.empty_cache()
+        l1_ratio = num_l1_applied / num_params if num_params > 0 else 0
+        print(f"Epoch {e + 1}, L1 Regularization Applied to {l1_ratio:.2%} of Parameters")
+        self.client_current.to("cpu")
+
     def client_update_param_mask(self):
         hook_handles = []
+
         # Define a hook function to zero out gradients based on a bool_idx
         def create_hook_fn(bool_idx):
             def hook_fn(grad):
@@ -162,7 +243,7 @@ class Client(object):
 
                     for layer_name in gradient:
                         bool_idx = torch.tensor(np.abs(gradient[layer_name]) < threshold)
-                        layer = getattr(self.client_current, layer_name[:-7]) # remove '.weight' at the end
+                        layer = getattr(self.client_current, layer_name[:-7])  # remove '.weight' at the end
                         hook_handle = layer.weight.register_hook(create_hook_fn(bool_idx))
                         hook_handles.append(hook_handle)
 
@@ -183,116 +264,6 @@ class Client(object):
         for hook_handle in hook_handles:
             hook_handle.remove()
         self.client_current.to("cpu")
-
-    def client_update_param_freeze(self):
-        def modified_forward(self, input):
-            # Create a dictionary to store original parameters
-            original_params = {}
-
-            # Reconstruct and replace parameters
-            for original_param_name in getattr(self, 'original_param_names'):
-                if hasattr(self, f'param_requires_grad_{original_param_name}'):
-                    # Retrieve the split parameters and indices
-                    param_requires_grad = getattr(self, f'param_requires_grad_{original_param_name}')
-                    param_no_grad = getattr(self, f'param_no_grad_{original_param_name}')
-
-                    # First, calculate the forward pass with param_requires_grad
-                    output_grad = self._forward_with_params(input, param_requires_grad, original_param_name)
-
-                    # Then, calculate the forward pass with param_no_grad
-                    output_no_grad = self._forward_with_params(input, param_no_grad, original_param_name)
-
-                    # Add the two outputs together to form the final output for this parameter
-                    if final_output is None:
-                        final_output = output_grad + output_no_grad
-                    else:
-                        final_output += output_grad + output_no_grad
-
-            # Call the original forward method
-            output = self._original_forward(input)
-
-            return output
-
-        self.client_current.train()
-        self.client_current.to(self.device)
-
-        for e in range(self.local_epoch):
-            total_batches = len(self.train.get_dataloader())
-            current_batch = 0
-            target_batch = max(int(total_batches * 0.1), 1)
-            optimizer = eval(self.optimizer)(self.client_current.parameters(), **self.optim_config)
-
-            saved_state_dict_buffer = io.BytesIO()
-            torch.save(self.client_current.state_dict(), saved_state_dict_buffer)
-            saved_state_dict_buffer.seek(0)
-
-            for data, labels in self.train.get_dataloader():
-                if current_batch == target_batch:
-                    gradient = self.get_gradient()
-                    threshold = np.percentile(np.abs(gradient), 30)
-                    gradient_dict = self.client_current.unflatten_model(gradient)
-
-                    loaded_state_dict = torch.load(saved_state_dict_buffer)
-                    self.client_current.load_state_dict(loaded_state_dict)
-
-                    for name, layer in self.client_current.named_modules():
-                        params = list(layer.named_parameters(recurse=False))
-                        param_names = []
-                        for param_name, param in params:
-                            full_param_name = f'{name}.{param_name}' if name else param_name
-                            if full_param_name in gradient_dict:
-                                mask = torch.tensor(np.abs(gradient_dict[full_param_name]) < threshold)
-                                indices_requires_grad = torch.nonzero(~mask)
-                                indices_no_grad = torch.nonzero(mask)
-
-                                param_requires_grad = nn.Parameter(param * mask, requires_grad=True)
-                                param_no_grad = (param * ~mask).clone().detach()
-
-                                # 删除原始参数
-                                if hasattr(layer, param_name):
-                                    delattr(layer, param_name)
-                                    param_names.append(param_name)
-
-                                # 存储拆分的参数和索引
-                                setattr(layer, f'param_requires_grad_{param_name}', param_requires_grad)
-                                setattr(layer, f'param_no_grad_{param_name}', param_no_grad)
-                                setattr(layer, f'original_shape_{param_name}', param.shape)
-
-                                # 保存原始的 forward 方法
-                                if not hasattr(layer, '_original_forward'):
-                                    layer._original_forward = layer.forward
-
-                                # 如果还没有绑定 modified_forward 方法，则绑定
-                                if not hasattr(layer, 'modified_forward_bound'):
-                                    layer.forward = types.MethodType(modified_forward, layer)
-                                    layer.modified_forward_bound = True
-                            setattr(layer, f'original_param_names', param_names)
-
-                    trainable_parameters = list(
-                        filter(lambda p: p.requires_grad, self.client_current.parameters())
-                    )
-                    if trainable_parameters:
-                        optimizer = eval(self.optimizer)(trainable_parameters, **self.optim_config)
-                    else:
-                        print("No parameters require gradients after freezing.")
-                        optimizer = None
-
-                current_batch += 1
-                data, labels = data.float().to(self.device), labels.long().to(self.device)
-
-                optimizer.zero_grad()
-                outputs = self.client_current(data)
-                loss = eval(self.criterion)()(outputs, labels)
-
-                loss.backward()
-                optimizer.step()
-
-                if self.device == "cuda": torch.cuda.empty_cache()
-
-            print(self.client_current.fc1.param_requires_grad_weight.grad)
-
-            self.restore_model_param_freeze(self.client_current)
-            self.client_current.to("cpu")
 
     def client_update_fedprox(self):
         """Update local model using local dataset."""
@@ -375,7 +346,7 @@ class Client(object):
 
         for key in client_current_para:
             c_new_para[key] = c_new_para[key] - c_global_para[key] + (
-                        global_current_para[key] - client_current_para[key]) / \
+                    global_current_para[key] - client_current_para[key]) / \
                               (count * self.optim_config['lr'])
 
             c_delta_para[key] = c_new_para[key] - c_local_para[key]

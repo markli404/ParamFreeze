@@ -15,7 +15,7 @@ def main():
 
     # 客户端相关参数
     parser.add_argument('--epoch', type=int, default=1)
-    parser.add_argument('--batch_size', type=int, default=32)
+    parser.add_argument('--batch_size', type=int, default=128)
     parser.add_argument('--number_of_training_samples', type=int, default=512)
     parser.add_argument('--number_of_testing_samples', type=int, default=128)
 
@@ -25,7 +25,7 @@ def main():
     # 实验设定相关
     parser.add_argument('--model_name', type=str, default='CNN')
     parser.add_argument('--run_type', type=str, default='fedavg')
-    parser.add_argument('--update_type', type=str, default='param_freeze') #param_freeze
+    parser.add_argument('--update_type', type=str, default='reversed_l1') #param_freeze
 
     parser.add_argument('--number_of_clients', type=int, default=20)
     parser.add_argument('--number_of_selected_classes', type=int, default=10)
@@ -67,7 +67,6 @@ def main():
         accu, round_uploads = central_server.fit()
         accuracy.append(accu)
         uploads.append(round_uploads)
-        printer.print(accu)
 
     accuracy = np.array(accuracy)
     accuracy = np.mean(accuracy, axis=0)
