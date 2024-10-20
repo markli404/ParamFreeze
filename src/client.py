@@ -102,8 +102,8 @@ class Client(object):
             return self.client_update_fedavg()
         elif update_type == 'param_freeze':
             return self.client_update_param_freeze()
-        elif update_type == 'reversed_l1':
-            return self.client_update_adaptive_l1_mask()
+        elif update_type == 'client_update_L1':
+            return self.client_update_L1()
         else:
             return self.client_update_fedavg()
 
@@ -162,51 +162,34 @@ class Client(object):
 
         self.client_current.to("cpu")
 
-    def client_update_adaptive_l1_mask(self):
-        """Update local model using local dataset with adaptive L1 regularization using mask."""
+    def client_update_L1(self):
+        """Update local model using local dataset."""
         self.client_current.train()
         self.client_current.to(self.device)
+
         global_weight_collector = list(self.global_current.to(self.device).parameters())
-        mu = 0.02
-        alpha = 0  # 动态阈值系数
+        mu = 0.005
+
         optimizer = eval(self.optimizer)(self.client_current.parameters(), **self.optim_config)
-        num_params = 0
-        num_l1_applied = 0
         for e in range(self.local_epoch):
             for data, labels in self.train.get_dataloader():
                 data, labels = data.float().to(self.device), labels.long().to(self.device)
+
                 optimizer.zero_grad()
                 outputs = self.client_current(data)
                 loss = eval(self.criterion)()(outputs, labels)
-                param_deltas = []
-                abs_param_deltas = []
+
+                fed_prox_reg = 0.0
                 for param_index, param in enumerate(self.client_current.parameters()):
-                    delta_theta = param - global_weight_collector[param_index]
-                    param_deltas.append(delta_theta)
-                    abs_param_deltas.append(torch.abs(delta_theta))
-                delta_thetas = np.concatenate(
-                    [delta_theta.detach().cpu().numpy().ravel() for delta_theta in param_deltas])
-                abs_delta_thetas = np.concatenate(
-                    [abs_delta_theta.detach().cpu().numpy().ravel() for abs_delta_theta in abs_param_deltas])
-                tau = np.mean(abs_delta_thetas) + alpha * np.std(abs_delta_thetas)
-                print('tau is ', tau)
-                mask = [torch.abs(delta_theta) < tau for delta_theta in param_deltas]
-                l1_reg = 0.0
-                num_params = 0
-                num_l1_applied = 0
-                for delta_theta, mask_tensor in zip(param_deltas, mask):
-                    sparse_delta = delta_theta * mask_tensor  # 对 delta_theta 进行 mask
-                    l1_reg += mu * torch.norm(sparse_delta, p=1)
-                    num_params += delta_theta.numel()
-                    num_l1_applied += mask_tensor.sum().item()
-                loss += l1_reg
+                    fed_prox_reg += mu * torch.norm((param - global_weight_collector[param_index]), p=1)
+                loss += fed_prox_reg
+
                 loss.backward()
                 optimizer.step()
-                if self.device == "cuda": torch.cuda.empty_cache()
-        l1_ratio = num_l1_applied / num_params if num_params > 0 else 0
-        print(f"Epoch {e + 1}, L1 Regularization Applied to {l1_ratio:.2%} of Parameters")
-        self.client_current.to("cpu")
 
+                if self.device == "cuda": torch.cuda.empty_cache()
+
+        self.client_current.to("cpu")
     def client_update_param_mask(self):
         hook_handles = []
 

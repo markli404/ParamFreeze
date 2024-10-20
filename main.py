@@ -14,19 +14,19 @@ def main():
     parser = argparse.ArgumentParser(description='federated learning')
 
     # 客户端相关参数
-    parser.add_argument('--epoch', type=int, default=1)
-    parser.add_argument('--batch_size', type=int, default=128)
+    parser.add_argument('--epoch', type=int, default=5)
+    parser.add_argument('--batch_size', type=int, default=32)
     parser.add_argument('--number_of_training_samples', type=int, default=512)
     parser.add_argument('--number_of_testing_samples', type=int, default=128)
 
     # 数据集相关
-    parser.add_argument('--dataset', type=str, default='mnist')
+    parser.add_argument('--dataset', type=str, default='Fashionmnist')
 
     # 实验设定相关
-    parser.add_argument('--model_name', type=str, default='CNN')
+    parser.add_argument('--model_name', type=str, default='CNN2')
     parser.add_argument('--run_type', type=str, default='fedavg')
-    parser.add_argument('--update_type', type=str, default='reversed_l1') #param_freeze
-
+    parser.add_argument('--update_type', type=str, default='fedavg') #param_freeze
+    # parser.add_argument('--mu', type=str, default='0.01')
     parser.add_argument('--number_of_clients', type=int, default=20)
     parser.add_argument('--number_of_selected_classes', type=int, default=10)
     parser.add_argument('--round', type=int, default=50)

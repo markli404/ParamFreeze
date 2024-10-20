@@ -3,9 +3,10 @@ import torch
 import logging
 from torch.utils.data import Dataset, DataLoader
 import torchvision
-
+from utils.CustomDatasets import load_CINIC10
 
 logger = logging.getLogger(__name__)
+
 
 DATA_PATH = './data/'
 class CustomTensorDataset(Dataset):
@@ -76,32 +77,40 @@ class CustomTensorDataset(Dataset):
         images = images + torch.randn(images.size()) * level
         self.tensors = (images, self.tensors[1])
 
+
 # 负责根据各种分布生成训练集
 class DatasetController:
     def __init__(self, dataset_name, number_of_training_samples, number_of_testing_samples):
+        global training_dataset, test_dataset, transform
         self.number_of_training_samples = number_of_training_samples
         self.number_of_testing_samples = number_of_testing_samples
 
         dataset_name = dataset_name.upper()
         # get dataset from torchvision.datasets if exists
-        if hasattr(torchvision.datasets, dataset_name):
+        if hasattr(torchvision.datasets, dataset_name) or dataset_name == 'FASHIONMNIST':
             # set transformation differently per dataset
-            if dataset_name in ["CIFAR10"]:
+            if dataset_name == "CIFAR10":
                 transform = torchvision.transforms.Compose(
                     [
                         torchvision.transforms.ToTensor(),
                         torchvision.transforms.Normalize((0.4914, 0.4822, 0.4465), (0.5071, 0.4867, 0.4408))
                     ]
                 )
-            elif dataset_name in ["CIFAR100"]:
+            elif dataset_name == "CIFAR100":
                 transform = torchvision.transforms.Compose(
                     [
                         torchvision.transforms.ToTensor(),
                         torchvision.transforms.Normalize((0.5071, 0.4867, 0.4408), (0.2675, 0.2565, 0.2761))
                     ]
                 )
-            elif dataset_name in ["MNIST"]:
-                transform = torchvision.transforms.ToTensor()
+            elif dataset_name in ["MNIST", "FASHIONMNIST"]:
+                transform = torchvision.transforms.Compose(
+                    [
+                        torchvision.transforms.ToTensor(),
+                        torchvision.transforms.Normalize((0.5,), (0.5,))  # Normalize Fashion MNIST
+                    ]
+                )
+                dataset_name = 'FashionMNIST' if dataset_name == "FASHIONMNIST" else dataset_name
 
             # prepare raw training & test datasets
             training_dataset = torchvision.datasets.__dict__[dataset_name](
@@ -117,10 +126,14 @@ class DatasetController:
                 download=True,
                 transform=transform
             )
+
         else:
-            # dataset not found exception
-            error_message = f"...dataset \"{dataset_name}\" is not supported or cannot be found in TorchVision Datasets!"
-            raise AttributeError(error_message)
+            if dataset_name == 'CINIC10':
+                training_dataset, test_dataset, transform = load_CINIC10(DATA_PATH)
+            else:
+                # dataset not found exception
+                error_message = f"...dataset \"{dataset_name}\" is not supported or cannot be found in TorchVision Datasets!"
+                raise AttributeError(error_message)
 
         # unsqueeze channel dimension for grayscale image datasets
         if training_dataset.data.ndim == 3:  # convert to NxHxW -> NxHxWx1

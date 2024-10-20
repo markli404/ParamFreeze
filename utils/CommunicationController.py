@@ -267,6 +267,8 @@ class CommunicationController:
             message = f"...successfully transmitted models to {str(len(self.sampled_clients_indices))} selected clients!"
 
         for target_client in target_clients:
+            target_client.global_previous = copy.deepcopy(target_client.global_current)
+            target_client.client_previous = copy.deepcopy(target_client.client_current)
             target_client.client_current = copy.deepcopy(model)
             target_client.global_current = copy.deepcopy(model)
             # print('transmit sparse_weights',sparse_weights)
